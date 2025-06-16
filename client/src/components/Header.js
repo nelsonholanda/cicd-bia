@@ -10,8 +10,8 @@ const Header = ({ title, onAdd, showAdd }) => {
       {/* <h3>process.env.EMAIL_ALUNO</h3> */}
       {location.pathname === "/" && (
         <Button
-          color={showAdd ? "yellow" : "grey"}
-          text={showAdd ? "Fechar" : "Adicionar"}
+          color={showAdd ? "green" : "black"}
+          text={showAdd ? "Close" : "Add"}
           onClick={onAdd}
         />
       )}
