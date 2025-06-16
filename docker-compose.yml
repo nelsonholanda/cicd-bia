@@ -3,11 +3,11 @@ services:
     build: .
     container_name: bia
     ports:
-      - 80:8080
+      - 3001:8080
     environment:
       DB_USER: postgres
-      #DB_PWD: postgres
-      DB_HOST: bia-pipeline.cx4q6caas2ti.us-east-1.rds.amazonaws.com
+      DB_PWD: rdms95gn
+      DB_HOST: bia.cx4q6caas2ti.us-east-1.rds.amazonaws.com
       DB_PORT: 5432
-      DB_SECRET_NAME: rds!db-31ced089-8889-4544-abde-00ce0d2cc64f
+      #DB_SECRET_NAME: rds!db-e43da37d-51b5-4232-a035-14d023d3737a
       DB_REGION: us-east-1
