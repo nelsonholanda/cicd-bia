@@ -9,5 +9,5 @@ services:
       #DB_PWD: rdms95gn
       DB_HOST: bia.cx4q6caas2ti.us-east-1.rds.amazonaws.com
       DB_PORT: 5432
-      DB_SECRET_NAME: rds!db-883c497c-29cf-4983-afa6-9579f500bb77
+      DB_SECRET_NAME: rds!db-0de98a7c-bbe1-408c-bda8-ac6245ebfc36
       DB_REGION: us-east-1
